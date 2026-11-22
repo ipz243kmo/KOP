@@ -1,0 +1,21 @@
+
+.ds-state-msg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: var(--space-8) var(--space-4);
+  gap: var(--space-3);
+}
+
+.ds-state-msg__title {
+  margin: 0;
+  font-size: var(--font-size-lg);
+}
+
+.ds-state-msg__desc {
+  margin: 0;
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-md);
+}

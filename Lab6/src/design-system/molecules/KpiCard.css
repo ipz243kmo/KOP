@@ -1,0 +1,30 @@
+
+.ds-kpi {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.ds-kpi__title {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+}
+
+.ds-kpi__value {
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text-primary);
+}
+
+.ds-kpi__trend {
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+}
+
+.ds-kpi__trend--positive {
+  color: var(--color-success);
+}
+
+.ds-kpi__trend--negative {
+  color: var(--color-danger);
+}
